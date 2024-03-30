@@ -16,12 +16,3 @@ const cardsContainer = document.querySelector('.cards');
 
         cardsContainer.style.transform = `translateX(-${cardIndex * cardWidth}px)`;
     }
-
-function toggleMenu() {
-    var x = document.getElementsByTagName("ul")[0];
-    if (x.className === "") {
-        x.className = "responsive";
-    } else {
-        x.className = "";
-    }
-}
